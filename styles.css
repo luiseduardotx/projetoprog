@@ -1,0 +1,48 @@
+/*Resetando margens e paddings*/
+*{
+    margin: 0;
+    paddiing: 0;
+    box-sizing; border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    backgroud-color: #870065;
+    color:#7557a9
+    line-heigth: 1.6;
+}
+
+header {
+    backgroud-color: #4caf50
+    color:white;
+    padding: 20p;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10p;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none
+    font-weight: bold;
+}
+section{
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer{
+    text-align: center:center;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],form
